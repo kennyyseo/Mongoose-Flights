@@ -1,0 +1,33 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url(https://i.imgur.com/cOtsidv.jpg);
+  background-size: cover;
+}
+
+a {
+  color: white;
+}
+
+.subtitles {
+  font-weight: bold;
+}
+
+#dd,
+.time,
+.add {
+  display: block;
+}
+
+#moreInfo {
+  padding-right: 40px;
+}
+#flightNo {
+  padding-right: 40px;
+}
+#airline {
+  padding-right: 100px;
+}
+#airport {
+  padding-right: 40px;
+}
