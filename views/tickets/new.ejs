@@ -17,12 +17,12 @@
     <br>
     <br>
     <main>
-        <form action="/flights/<%= flightID %>/tickets" method = "POST">
+        <form action="/tickets/<%= ticket._id %> method="POST">
             <label>Select Seat:</label>
             <input type="text" name="seat" required pattern="[A-F][1-9]\d?">
             <br>
             <label>Select Price:</label>
-            <input type="number" name="price">
+            <input type="text" name="price">
             <br>
             <br>
             <button type= "submit">Reserve Your Seat</button>
@@ -31,7 +31,4 @@
 </body>
         
 </html>
-
-
-
       

@@ -31,3 +31,12 @@ a {
 #airport {
   padding-right: 40px;
 }
+
+.delete-form {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#deleteFlight {
+  padding-right: 40px;
+}
