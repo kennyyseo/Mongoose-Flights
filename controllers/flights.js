@@ -19,7 +19,7 @@ function index(req, res) {
 
 function show(req, res) {
   Flight.findById(req.params.id, function (err, flight) {
-    Ticket.find({ flight: flight._id }, function (err, tickets) {
+    Ticket.find({}, function (err, tickets) {
       const newFlight = new Flight();
       const dt = newFlight.departs;
       const arrDate = dt.toISOString().slice(0, 16);
